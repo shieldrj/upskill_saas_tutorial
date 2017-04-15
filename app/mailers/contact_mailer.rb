@@ -5,6 +5,7 @@ class ControllerMailer < ActionMailer::Base
     @name = name
     @email = email
     @body = body
+    
     mail(from: email, subject: 'Contact Form Message')
   end
 end
