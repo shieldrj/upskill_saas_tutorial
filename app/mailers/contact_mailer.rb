@@ -1,4 +1,4 @@
-class ControllerMailer < ActionMailer::Base
+class ContactMailer < ActionMailer::Base
   default to: 'shieldrj@mail.uc.edu'
   
   def contact_email(name, email, body)
